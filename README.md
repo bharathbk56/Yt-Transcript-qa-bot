@@ -1,6 +1,6 @@
 # 🎬 YouTube Transcript Q&A Bot
 
-An AI-powered app that transcribes any YouTube video and answers questions based on the actual video content — no hallucinations, only transcript-grounded answers.
+This project is an AI-powered YouTube Transcript Q&A application that extracts transcripts from YouTube videos and allows users to ask questions based on the actual video content. The app uses transcript-grounded AI responses to provide accurate answers while minimizing hallucinations. Built with Streamlit and NLP technologies, it offers an interactive and user-friendly way to understand and explore video content quickly.
 
 ---
 
@@ -59,15 +59,28 @@ http://localhost:8501
 
 ---
 
-## 📁 Project Structure
-yt-transcript-qa-bot/
-├── App.py                  # Main Streamlit application
-├── requirements.txt        # Python dependencies
-├── runtime.txt             # Python version (3.11.6)
-├── .streamlit/
-│   └── config.toml         # Streamlit server config
-└── .gitignore              # Ignores .env and cache files
+# 📁 Project Structure
 
+```bash
+yt-transcript-qa-bot/
+│
+├── App.py
+│   └── Main Streamlit application
+│
+├── requirements.txt
+│   └── Python dependencies
+│
+├── runtime.txt
+│   └── Python version (3.11.6)
+│
+├── .gitignore
+│   └── Ignore cache files and environment files
+│
+└── .streamlit/
+    │
+    └── config.toml
+        └── Streamlit server configuration
+```
 ---
 
 ## 🔑 Environment Variables
