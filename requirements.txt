@@ -1,0 +1,10 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain
+langchain-community
+langchain-text-splitters
+youtube-transcript-api==0.6.3
+scikit-learn
+numpy
+requests
